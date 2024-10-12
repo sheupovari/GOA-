@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მოძრავი ოთკუთხედი</title>
+    <style>
+        body {
+            overflow: hidden;
+            background-color: #f0f0f0;
+            margin: 0;
+            position: relative;
+            height: 100vh;
+        }
+        .rectangle {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            background-color: #3498db;
+            animation: move 3s linear infinite, pulse 1.5s infinite;
+        }
+        @keyframes move {
+            0% { left: 100%; }
+            50% { left: 0; }
+            100% { left: 100%; }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle"></div>
+</body>
+</html>
