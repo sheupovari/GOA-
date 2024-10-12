@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-Column Preview Card Component</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f8f9fa;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 900px;
+    }
+
+    .card {
+      flex: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      text-align: center;
+      margin: 0 10px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #6b7c93;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0057ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #004ec3;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="a.png" alt="Image 1">
+      <div class="content">
+        <h2>Supervisor</h2>
+        <p>Monitors activity to identify project roadblocks</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="b.png" alt="Image 2">
+      <div class="content">
+        <h2>Team Builder</h2>
+        <p>Scans our talent network to create the optimal team for your project</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ac.png" alt="Image 3">
+      <div class="content"
+        <h2>Karma</h2>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

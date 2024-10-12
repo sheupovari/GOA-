@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #272626; 
+            
+        }
+
+        .profile-card {
+            text-align: center;
+            background-color: rgba(43, 23, 23, 0.244); 
+            padding: 40px; 
+            border-radius: 20px; 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+            max-width: 350px; 
+        }
+
+        .profile-card img {
+            width: 175px; 
+            height: 175px; 
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-card h2 {
+            margin: 20px 0; 
+            color: #ffffff; 
+        }
+
+        .profile-card .location {
+            color: #7fff00; 
+        }
+
+        .profile-card .description {
+            color: #ffffff; 
+        }
+
+        .profile-card p {
+            margin: 10px 0;
+            color: #423232;
+        }
+
+        .social-links {
+            margin-top: 20px; 
+        }
+
+        .social-links button {
+            background-color: rgba(75, 74, 74, 0.5); 
+            color: #914949;
+            font-size: 11px; 
+            padding: 10px 20px; 
+            margin-bottom: 10px; 
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 350px;
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .social-links button:hover {
+            background-color: #585858; 
+        }
+
+        .social-links a {
+            color: #f0f0f0;
+            font-size: 24px; 
+            margin: 0 10px; 
+            text-decoration: none; 
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #49ba4b; 
+        }
+
+        .social-links i {
+            vertical-align: middle; 
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="profile-card">
+        <img src="avatar-jessica.jpeg" alt="Profile Picture">
+        <h2><span class="name">Jessica Randall</span></h2>
+        <p><span class="location">London, United Kingdom</span></p>
+        <p><span class="description">Front-end Developer and avid reader</span></p>
+        <div class="social-links">
+            <button><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></button>
+            <button><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></button>
+            <button><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></button>
+            <button><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></button>
+            <button><a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Github</a></button>
+            <button><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> Youtube</a></button>
+            <button><a href="https://stackoverflow.com" target="_blank"><i class="fab fa-stack-overflow"></i> Stack Overflow</a></button>
+            <button><a href="https://reddit.com" target="_blank"><i class="fab fa-reddit"></i> Reddit</a></button>
+        </div>
+    </div>
+</body>
+</html>

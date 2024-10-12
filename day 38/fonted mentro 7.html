@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four Card Feature Section</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  .card h3 {
+    font-size: 1.5rem;
+    color: #444;
+  }
+  .card p {
+    color: #777;
+    line-height: 1.6;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 40px);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .card {
+      width: calc(100% - 40px);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h3>Card One</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan magna ac justo varius, sed volutpat nisi consectetur.</p>
+  </div>
+  <div class="card">
+    <h3>Card Two</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan magna ac justo varius, sed volutpat nisi consectetur.</p>
+  </div>
+  <div class="card">
+    <h3>Card Three</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan magna ac justo varius, sed volutpat nisi consectetur.</p>
+  </div>
+  <div class="card">
+    <h3>Card Four</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan magna ac justo varius, sed volutpat nisi consectetur.</p>
+  </div>
+</div>
+
+</body>
+</html>

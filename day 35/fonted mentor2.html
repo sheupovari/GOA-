@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Summary Component</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f8f9fa;
+    }
+
+    .card {
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .header {
+      padding: 20px;
+      background-color: #0057ff;
+      color: #fff;
+    }
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .plan {
+      font-size: 16px;
+      color: #b9bdcf;
+      margin-bottom: 20px;
+    }
+
+    .amount {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0057ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #004ec3;
+    }
+
+    .footer {
+      padding: 20px;
+      background-color: #f8f9fa;
+      color: #8792a4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h2 class="title">Order Summary</h2>
+      <p class="plan">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    </div>
+    <div class="content">
+      <img src="12.01.2024_16.26.25_REC.png" alt="Product Image">
+      <p class="amount">$59.99/year</p>
+    </div>
+    <a href="#" class="btn">Change</a>
+    <div class="footer">
+      <small class="cancel">Cancel anytime</small>
+    </div>
+  </div>
+</body>
+</html>

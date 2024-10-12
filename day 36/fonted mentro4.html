@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Preview Card Component</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #005cb8;
+    }
+
+    .card {
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #5822bd;
+      display: flex;
+    }
+
+    img {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .content {
+      width: 50%;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #6b7c93;
+      margin-bottom: 20px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .stat-icon {
+      margin-right: 5px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0057ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #004ec3;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="cube.png" alt="NFT Image">
+    <div class="content">
+      <h2>Exploring the Cosmos</h2>
+      <p>An exploration into the vastness of space and the mysteries it holds. Discover the wonders of the cosmos!</p>
+      <div class="stats">
+        <div class="stat-item">
+          <img src="cube.png" alt="Views Icon" class="stat-icon">
+          <span>1.4k</span>
+        </div>
+        <div class="stat-item">
+          <img src="cube.png" alt="Likes Icon" class="stat-icon">
+          <span>3.7k</span>
+        </div>
+      </div>
+      <a href="#" class="btn">View NFT</a>
+    </div>
+  </div>
+</body>
+</html>

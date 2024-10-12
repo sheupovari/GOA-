@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Proof Section</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ecf2f8;
+  }
+  .container {
+    max-width: 900px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+  }
+  .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .testimonial {
+    width: 300px;
+    background-color: #bc068cb3;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  .testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .testimonial h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .testimonial p {
+    font-size: 0.9rem;
+  }
+  .stars {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    color: #f7bb2a; 
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .testimonial {
+      width: 90%;
+    }
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>10,000+ of our users love our products</h2>
+  <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+  <div class="testimonials">
+    <div class="testimonial">
+      <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+      <img src="image-colton.jpg" alt="Colton Smith">
+      <h3>Colton Smith</h3>
+      <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+    </div>
+    <div class="testimonial">
+      <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+      <img src="image-irene.jpg" alt="Irene Roberts">
+      <h3>Irene Roberts</h3>
+      <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+    </div>
+    <div class="testimonial">
+      <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+      <img src="image-anne.jpg" alt="Anne Wallace">
+      <h3>Anne Wallace</h3>
+      <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

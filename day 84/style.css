@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .cta-button {
+    background-color: #ff52bf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro img {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+  
+  .feature.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .feature-img {
+    width: 100%;
+    max-width: 50%;
+    padding: 20px;
+  }
+  
+  .feature-content {
+    width: 100%;
+    max-width: 50%;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .feature {
+      flex-direction: column;
+    }
+  
+    .feature.reverse {
+      flex-direction: column;
+    }
+  
+    .feature-img, .feature-content {
+      max-width: 100%;
+    }
+  }
+  

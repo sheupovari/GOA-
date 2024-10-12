@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Information Form</title>
+</head>
+<body>
+
+<div>
+  <h2>Personal Information Form</h2>
+  <form id="personalInfoForm">
+    <label for="gender">Gender:
+      <select name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </label><br>
+
+    <label for="firstName">First Name: <input type="text" name="firstName" required></label><br>
+    <label for="lastName">Last Name: <input type="text" name="lastName" required></label><br>
+    <label for="birthDate">Birth Date: <input type="date" name="birthDate" required></label><br>
+    <label for="email">Email: <input type="email" name="email" required></label><br>
+    <label for="address">Address: <textarea name="address" required></textarea></label><br>
+
+    <p id="result"></p>
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="scriptPlaceholder"></div>
+
+  
+</div>
+
+</body>
+</html>

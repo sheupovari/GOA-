@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stats Preview Card Component</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .card {
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .image {
+      background: url('https://via.placeholder.com/300') no-repeat center center / cover;
+      height: 200px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #6b7c93;
+      margin-bottom: 20px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .stat-item {
+      flex: 1;
+      padding: 10px;
+    }
+
+    .stat-number {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: #6b7c93;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="image"></div>
+    <div class="content">
+      <h2>Get Insights that help your business grow.</h2>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-number">10k+</div>
+          <div class="stat-label">Companies</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">314</div>
+          <div class="stat-label">Templates</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">12M+</div>
+          <div class="stat-label">Queries</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
